@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Simple_WebRtc_Cpp_Linux.dir/main.cpp.o -o Simple_WebRtc_Cpp_Linux  /home/webrtc/lib_webrtc/src/out/Debug/obj/libwebrtc.a -lpthread -lboost_system -ldl 

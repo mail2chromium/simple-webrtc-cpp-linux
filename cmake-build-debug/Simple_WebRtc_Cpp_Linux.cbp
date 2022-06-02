@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Simple_WebRtc_Cpp_Linux"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Simple_WebRtc_Cpp_Linux">
+				<Option output="/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/cmake-build-debug/Simple_WebRtc_Cpp_Linux" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_ITERATOR_DEBUG_LEVEL=0"/>
+					<Add option="-DUSE_AURA=1"/>
+					<Add option="-D_HAS_EXCEPTIONS=0"/>
+					<Add option="-D__STD_C"/>
+					<Add option="-D_CRT_RAND_S"/>
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE"/>
+					<Add option="-D_SCL_SECURE_NO_DEPRECATE"/>
+					<Add option="-D_ATL_NO_OPENGL"/>
+					<Add option="-DCERT_CHAIN_PARA_HAS_EXTRA_FIELDS"/>
+					<Add option="-DPSAPI_VERSION=2"/>
+					<Add option="-D_SECURE_ATL"/>
+					<Add option="-D__WRL_NO_DEFAULT_LIB__"/>
+					<Add option="-DNOMINMAX"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-DNTDDI_VERSION=NTDDI_WIN10_RS2"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-DNVALGRIND"/>
+					<Add option="-DDYNAMIC_ANNOTATIONS_ENABLED=0"/>
+					<Add option="-DWEBRTC_ENABLE_PROTOBUF=0"/>
+					<Add option="-DWEBRTC_INCLUDE_INTERNAL_AUDIO_DEVICE"/>
+					<Add option="-DRTC_ENABLE_VP9"/>
+					<Add option="-DHAVE_SCTP"/>
+					<Add option="-DWEBRTC_LIBRARY_IMPL"/>
+					<Add option="-DWEBRTC_NON_STATIC_TRACE_EVENT_HANDLERS=0"/>
+					<Add option="-DABSL_ALLOCATOR_NOTHROW=1"/>
+					<Add directory="/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/webrtc"/>
+					<Add directory="/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/picojson"/>
+					<Add directory="/home/webrtc/lib_webrtc/src"/>
+					<Add directory="/home/webrtc/lib_webrtc/src/test"/>
+					<Add directory="/home/webrtc/lib_webrtc/src/build/out/Debug/obj"/>
+					<Add directory="/home/webrtc/lib_webrtc/src/third_party/abseil-cpp"/>
+					<Add directory="/home/webrtc/lib_webrtc/src/third_party/googletest/src/googletest/include"/>
+					<Add directory="/home/webrtc/lib_webrtc/src/third_party/libyuv/include"/>
+					<Add directory="/home/webrtc/lib_webrtc/src/third_party/libyuv/source"/>
+					<Add directory="/home/webrtc/lib_webrtc/src/third_party/jsoncpp/source/include"/>
+					<Add directory="/home/webrtc/lib_webrtc/src/base"/>
+					<Add directory="/home/webrtc/lib_webrtc/src/media/base"/>
+					<Add directory="/home/webrtc/lib_webrtc/src/media/engine"/>
+					<Add directory="/home/webrtc/lib_webrtc/src/pc"/>
+					<Add directory="/usr/include/websocketpp"/>
+					<Add directory="/usr/include/nlohmann"/>
+					<Add directory="/usr/include/boost"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 Simple_WebRtc_Cpp_Linux"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Simple_WebRtc_Cpp_Linux/fast">
+				<Option output="/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/cmake-build-debug/Simple_WebRtc_Cpp_Linux" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_ITERATOR_DEBUG_LEVEL=0"/>
+					<Add option="-DUSE_AURA=1"/>
+					<Add option="-D_HAS_EXCEPTIONS=0"/>
+					<Add option="-D__STD_C"/>
+					<Add option="-D_CRT_RAND_S"/>
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE"/>
+					<Add option="-D_SCL_SECURE_NO_DEPRECATE"/>
+					<Add option="-D_ATL_NO_OPENGL"/>
+					<Add option="-DCERT_CHAIN_PARA_HAS_EXTRA_FIELDS"/>
+					<Add option="-DPSAPI_VERSION=2"/>
+					<Add option="-D_SECURE_ATL"/>
+					<Add option="-D__WRL_NO_DEFAULT_LIB__"/>
+					<Add option="-DNOMINMAX"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-DNTDDI_VERSION=NTDDI_WIN10_RS2"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-DNVALGRIND"/>
+					<Add option="-DDYNAMIC_ANNOTATIONS_ENABLED=0"/>
+					<Add option="-DWEBRTC_ENABLE_PROTOBUF=0"/>
+					<Add option="-DWEBRTC_INCLUDE_INTERNAL_AUDIO_DEVICE"/>
+					<Add option="-DRTC_ENABLE_VP9"/>
+					<Add option="-DHAVE_SCTP"/>
+					<Add option="-DWEBRTC_LIBRARY_IMPL"/>
+					<Add option="-DWEBRTC_NON_STATIC_TRACE_EVENT_HANDLERS=0"/>
+					<Add option="-DABSL_ALLOCATOR_NOTHROW=1"/>
+					<Add directory="/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/webrtc"/>
+					<Add directory="/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/picojson"/>
+					<Add directory="/home/webrtc/lib_webrtc/src"/>
+					<Add directory="/home/webrtc/lib_webrtc/src/test"/>
+					<Add directory="/home/webrtc/lib_webrtc/src/build/out/Debug/obj"/>
+					<Add directory="/home/webrtc/lib_webrtc/src/third_party/abseil-cpp"/>
+					<Add directory="/home/webrtc/lib_webrtc/src/third_party/googletest/src/googletest/include"/>
+					<Add directory="/home/webrtc/lib_webrtc/src/third_party/libyuv/include"/>
+					<Add directory="/home/webrtc/lib_webrtc/src/third_party/libyuv/source"/>
+					<Add directory="/home/webrtc/lib_webrtc/src/third_party/jsoncpp/source/include"/>
+					<Add directory="/home/webrtc/lib_webrtc/src/base"/>
+					<Add directory="/home/webrtc/lib_webrtc/src/media/base"/>
+					<Add directory="/home/webrtc/lib_webrtc/src/media/engine"/>
+					<Add directory="/home/webrtc/lib_webrtc/src/pc"/>
+					<Add directory="/usr/include/websocketpp"/>
+					<Add directory="/usr/include/nlohmann"/>
+					<Add directory="/usr/include/boost"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 Simple_WebRtc_Cpp_Linux/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/main.cpp">
+			<Option target="Simple_WebRtc_Cpp_Linux"/>
+		</Unit>
+		<Unit filename="/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/webrtc/rtc_connection.h">
+			<Option target="Simple_WebRtc_Cpp_Linux"/>
+		</Unit>
+		<Unit filename="/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/webrtc/rtc_ice.h">
+			<Option target="Simple_WebRtc_Cpp_Linux"/>
+		</Unit>
+		<Unit filename="/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/webrtc/rtc_wrapper.h">
+			<Option target="Simple_WebRtc_Cpp_Linux"/>
+		</Unit>
+		<Unit filename="/home/webrtc/CLionProjects/Simple-WebRtc-Cpp-Linux/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
