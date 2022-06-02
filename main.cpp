@@ -20,6 +20,16 @@
 
 
 int main(int argc, char *argv[]) {
+
+    std::cout << "*** Welcome to WebRtc Debugging Development Environment ***" << std::endl;
+    std::cout << "    > Please follow these commands to use this program < " << std::endl;
+    std::cout << "    1. sdp1 -> To Generate SDPs for Peer-A " << std::endl;
+    std::cout << "    2. sdp2 -> To Generate SDPs for Peer-B " << std::endl;
+    std::cout << "    3. ice1 -> To Generate Ice Candidates for Peer-A " << std::endl;
+    std::cout << "    4. ice2 -> To Generate Ice Candidates for Peer-B " << std::endl;
+    std::cout << "    5. ;    -> To terminate RTC Thread Session. " << std::endl;
+    
+
     webrtc::field_trial::InitFieldTrialsFromString("");
     rtc::InitializeSSL();
 
