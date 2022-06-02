@@ -8,24 +8,24 @@ include_directories(
 
         #################################################################
         #                   >      Project Files
-        "webrtc"
+        "src"
         "picojson"
 
         #################################################################
         #                   >    WebRtc Project Files
 
-        "/home/webrtc/lib_webrtc/src"
-        "/home/webrtc/lib_webrtc/src/test"
-        "/home/webrtc/lib_webrtc/src/build/out/Debug/obj"
-        "/home/webrtc/lib_webrtc/src/third_party/abseil-cpp"
-        "/home/webrtc/lib_webrtc/src/third_party/googletest/src/googletest/include"
-        "/home/webrtc/lib_webrtc/src/third_party/libyuv/include"
-        "/home/webrtc/lib_webrtc/src/third_party/libyuv/source"
-        "/home/webrtc/lib_webrtc/src/third_party/jsoncpp/source/include"
-        "/home/webrtc/lib_webrtc/src/base"
-        "/home/webrtc/lib_webrtc/src/media/base"
-        "/home/webrtc/lib_webrtc/src/media/engine"
-        "/home/webrtc/lib_webrtc/src/pc"
+        "$ENV{HOME}/webrtc_linux/src"
+        "$ENV{HOME}/webrtc_linux/src/test"
+        "$ENV{HOME}/webrtc_linux/src/build/out/Debug/obj"
+        "$ENV{HOME}/webrtc_linux/src/third_party/abseil-cpp"
+        "$ENV{HOME}/webrtc_linux/src/third_party/googletest/src/googletest/include"
+        "$ENV{HOME}/webrtc_linux/src/third_party/libyuv/include"
+        "$ENV{HOME}/webrtc_linux/src/third_party/libyuv/source"
+        "$ENV{HOME}/webrtc_linux/src/third_party/jsoncpp/source/include"
+        "$ENV{HOME}/webrtc_linux/src/base"
+        "$ENV{HOME}/webrtc_linux/src/media/base"
+        "$ENV{HOME}/webrtc_linux/src/media/engine"
+        "$ENV{HOME}/webrtc_linux/src/pc"
 
         #################################################################
         #                   >    External Modules
@@ -75,7 +75,7 @@ add_executable(Simple_WebRtc_Cpp_Linux
 
 target_link_libraries(Simple_WebRtc_Cpp_Linux
 
-        PUBLIC "/home/webrtc/lib_webrtc/src/out/Debug/obj/libwebrtc.a"
+        PUBLIC "$ENV{HOME}/webrtc_linux/src/out/Debug/obj/libwebrtc.a"
         -lpthread
         -lboost_system
         -ldl
