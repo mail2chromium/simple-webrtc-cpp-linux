@@ -4,6 +4,29 @@
 
 -------
 
+
+**Getting Started**
+------
+High performance audio apps typically require more functionality than the simple ability to play or record sound. They demand responsive realtime system behavior. Webrtc provides browsers and *mobile applications* with Real-Time Communications (RTC) capabilities via simple APIs. 
+
+For *Understanding WebRtc Audio Processing and It's different modules*, you should have to look into this reference:
+
+- [Android-Audio-Processing-Using-WebRTC](https://github.com/mail2chromium/Android-Audio-Processing-Using-WebRTC)
+
+
+For *Compilation and Building the WebRTC Library for Android*, you should have to look into this refernce:
+
+- [Compile_WebRTC_Library_For_Android](https://github.com/mail2chromium/Compile_WebRTC_Library_For_Android)
+
+
+For *real-time Communication and AudioProcessing* in Android, I will recommend you to must visit these refernces:
+
+- [Android_Realtime_Communication_Using_WebRTC](https://github.com/mail2chromium/Android_Realtime_Communication_Using_WebRTC)
+- [Android-Native-Development-For-WebRTC](https://github.com/mail2chromium/Android-Native-Development-For-WebRTC)
+
+
+-------
+
 The basic motivation behind this project is to run a webrtc based simple application on latest WebRtc Stack. I have compiled fresh WebRtc Library for `Linux OS`.
 I have made it very simple for *webrtc newbies* and for *webrtc geeks* to understand and build large projects using the development setup.
 
@@ -26,7 +49,9 @@ You can run this program in different IDEs and build tools such as;
 
 In order to use this program in your development setup, you have to proceed the following steps;
 
-1. Please Visit: [WebRtc Compilation Setup for Core Linux Development](https://medium.com/@BeingOttoman/simplest-webrtc-debugging-development-environment-for-linux-3d4e4aed54f3)
+1. Setup WebRtc Compilation Environment for Linux.
+
+Please Visit: [WebRtc Compilation Setup for Core Linux Development](https://medium.com/@BeingOttoman/simplest-webrtc-debugging-development-environment-for-linux-3d4e4aed54f3)
 
 
 2. Clone this repo:
